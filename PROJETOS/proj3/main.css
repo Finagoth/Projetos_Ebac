@@ -1,0 +1,69 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #7a75b9;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #7a75b9;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #7a75b9;
+}
+
+.section-title {
+    font-family: pacifico, cursive;
+}
+
+#sobre-o-site, #produtos {
+    background-color: #7a75b9 ;
+}
+
+.text-colored {
+    color:#6b2f86;
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: #7a75b9;
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: #7a75b9;
+}
+
+#produtos img {
+    height: 280px;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#eventos .row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
